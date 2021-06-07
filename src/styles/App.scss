@@ -1,0 +1,23 @@
+.Toastify {
+  .Toastify__toast-container {
+    .Toastify__toast {
+      min-height: 50px;
+      height: 50px;
+      margin-bottom: 0;
+
+      .Toastify__toast-body {
+        svg {
+          margin-right: 10px;
+        }
+      }
+
+      .Toastify__progress-bar {
+        opacity: 0 !important;
+      }
+
+      .Toastify__close-button {
+        align-self: initial;
+      }
+    }
+  }
+}
